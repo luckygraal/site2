@@ -1,0 +1,205 @@
+.menu{
+	text-align: center;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	width: 100px;
+	display: inline-block;
+	padding: 12px 24px;
+}
+.menu a:hover{
+background-color: #ccc;
+}
+.title{
+	text-align: center;
+	background-image: url(../img/polygons.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: white;
+	padding: 180px 0;
+}
+.title a{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.title p{
+	margin: 40px 0;
+}
+.title a:hover{
+	background-color: #1049a9;
+}
+.about-company img{
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0;
+}
+.about-company{
+	max-width: 1200px;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+.about-company h2{
+	text-align: center;
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 20px 10px;
+	border: 2px solid gray;
+	box-shadow: 0 2px 5px gray;
+	padding: 20px;
+	text-align: left;
+}
+.member img{
+	width: 100%;
+}
+.team{
+	text-align: center;
+}
+.member h3{
+	font-weight: 400;
+	font-size: 24px;
+}
+.member .position{
+	color: grey;
+}
+.member a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	background-color: #055b73;
+	width: 100%;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 10px 0;
+}
+.member a:hover{
+	background-color: red;
+}
+.tariff li{
+	list-style: none;
+	border-bottom: 1px solid #dddddd;
+	padding: 16px 0;
+}
+.tariff .tariff-name{
+	background-color:  black;
+	color: white;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.tariff .pro{
+	background-color: #055b73;
+	padding: 48px 0;
+}
+.tariff{
+	width: 30%;
+	min-width: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+	padding: 0;
+	background-color: white;
+}
+.tariff li:last-child{
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+.tariff a{
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 10px;
+}	
+.tariff a:hover{
+	background-color: blue;
+	color: black;
+}
+.contact{
+	background-color: #616161;
+	text-align: center;
+	padding: 50px 0;
+}
+.contact h2, .contact p{
+	color: white;
+}
+.contact .price{
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+.important{
+	font-weight: bold;
+}
+.contact .period{
+	color: black;
+	opacity: 0.4;
+}
+.sent{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 40px 0;
+}
+.contact-info{
+	text-align: left;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 18px 18px;
+	margin-left: 5%;
+	padding-left: 30px;
+}
+.contact-adress{
+	background-image: url(../img/address.png);
+}
+.contact-phone{
+	background-image: url(../img/phone.png);
+}
+.contact-email{
+	background-image: url(../img/mail.png);
+}
+.sent input{
+	width: 90%;
+	padding: 8px;
+}
+.sent button{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	padding: 8px 16px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.sent button:hover{
+	background-color: grey;
+}
+@media(max-width:575px){
+.menu a{
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+}
+.title{
+padding: 100px 0;
+background-size: cover;
+background-position: center center;
+}
+.about-company img{
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+.member{
+	min-width: 80%;
+	margin: 20px 0;
+}
+.tariff{
+	min-width: 80%;
+	margin: 20px 0;
+}
+}
